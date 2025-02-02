@@ -8,6 +8,7 @@ using StoreApi.Entities;
 
 namespace StoreApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class BatchController : Controller
